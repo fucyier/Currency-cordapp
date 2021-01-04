@@ -1,0 +1,9 @@
+C:\projects\Tesla-cordapp>gradlew clean deploynodes
+
+C:\projects\Tesla-cordapp>build\nodes\runnodes.bat
+
+Trader1 consolundan giriyoruz
+start ShipmentFlow currencyType: Dolar , owner: "O=Trader2,L=Izmir,C=TR"
+
+trader2 consolundan giriyoruz
+run vaultQuery contractStateType: com.template.states.CurrencyState
